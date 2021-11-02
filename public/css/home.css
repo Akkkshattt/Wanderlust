@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Thambi+2&family=Zen+Old+Mincho&display=swap');
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+.header .header-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 3%;
+    /* background-color: grey; */
+}
+.header .header-1 .logo{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    /* text-decoration: none; */
+}
+header .header-1 .logo a{
+    text-decoration: none;
+    color: coral;
+}
+.header .header-1 .logo i{
+    color: burlywood;
+    padding: 0rem 0.5rem;
+}
+
+.header .header-1 .search-form{
+ width: 50rem;
+ height: 3rem;
+ border: 2px solid #ffbea5;
+ overflow: hidden;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 0.5rem;
+ font-size: 10px;
+}
+.header .header-1 .search-form input{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 26px;
+    /* font-weight: bold; */
+    color: black;
+    outline: none;
+    text-transform: capitalize;
+}
+.header .header-1 .search-form label{
+    font-size: 25px;
+    padding-right: 25px;
+    color: black;
+    cursor: pointer;
+}
+.header .header-1 .search-form label:hover{
+    color:burlywood;
+}
+.header .header-1 .icons div,.header .header-1 .icons a{
+    font-size: 2rem;
+    margin-left: 16px;
+    cursor: pointer;
+    color:burlywood;
+}
+.header .header-1 .icons div:hover,.header .header-1 .icons a:hover{
+    color:rgb(233, 140, 19);
+}
+#search-btn{
+    display: none;
+}
+header .header-2{
+    background-color: burlywood;
+}
+header .header-2 .navbar{
+    text-align: center;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .header-2 .navbar a{    
+/* display: inline-block; */
+color:#956404;
+font-size: 1.7rem;
+text-decoration: none;
+padding: 0 1rem;
+}
+header .header-2 .navbar a:hover{
+    background-color:rgb(221, 131, 12);
+}
+header .header-2.active{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+/* media queries for header start */
+@media (max-width:1300px){
+    html{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:1140px){
+    html{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:1000px){
+    .header .header-2{
+        display: none;
+    }
+    html{
+        font-size: 0.8rem;
+    }
+    .header .header-1{
+        box-shadow:0 0.5rem 1rem rgba(0,0,0,.1);
+        height: 6rem;
+    }
+    .header .header-1 .search-form{
+        position: relative;
+        top: -115%;
+        right: 2rem;
+        width: 90%;
+        height: 5rem;
+        box-shadow:0 0.5rem 1rem rgba(0,0,0,.1);
+    }
+     
+    .header .header-1 .search-form:active{
+        top: 115%;
+    }
+
+    #search-btn{
+        display: inline-block;
+    }
+}
+/* media queries for header end  */
