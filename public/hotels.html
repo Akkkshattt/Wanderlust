@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>Wanderlust-Hotels</title>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/hotels.css">
+</head>
+<body>
+
+<!-- <header class="header"> 
+    <div class="container">
+        <nav class="nav">
+            <a href="home.html" class="logo">
+                
+                <i class="fas fa-hotel "> WANDERLUST</i>
+            </a>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="hotels.html" class="nav-link">Hotels</a>
+                </li>
+                <li class="nav-item">
+                    <a href="trains.html" class="nav-link">Trains</a>
+                </li>
+                <li class="nav-item">
+                    <a href="flights.html" class="nav-link">Flights</a>
+                </li>
+                <li class="nav-item">
+                    <a href="holiday_packages.html" class="nav-link">Holiday-Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact-Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>-->
+
+<header>
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="hotels.html">Hotels</a>
+            <a href="trains.html">Trains</a>
+            <a href="flights.html">Flights</a>
+            <a href="holiday_packages.html">Holiday-Packages</a>
+            <a href="contact.html">Contact-Us</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- <img src="images/hotelbg.webp" alt=""> -->
+    <div class="hero">
+        <div class="container">
+            <div class="main-heading">
+                <h1 class="title">Discover</h1>
+                <h2 class="subtitle">Luxury hotels</h2>
+            </div>
+            <a href="#" class="btn btn-gradient">Explore now
+
+                <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+            </a>
+        </div>
+
+    </div>
+
+    <section class="booking">
+        <div class="container">
+            <form action="" class="form">
+                <div class="input-group">
+                    <label for="destination" class="input-label">Destination</label>
+                    <input type="text" class="input" id="destination">
+                </div>
+
+                <div class="input-group">
+                    <label for="check-in" class="input-label">Check in</label>
+                    <input type="date" class="input" id="check in">
+                </div>
+
+
+                <div class="input-group">
+                    <label for="check-out" class="input-label">Check out</label>
+                    <input type="date" class="input" id="check out">
+                </div>
+
+                <div class="input-group">
+                    <label for="adults" class="input-label">Adults</label>
+                    <select name="" id="adults" class="options">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+                    <label for="children" class="input-label">Children</label>
+                    <select name="" id="children" class="options">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
+                </div>
+
+                <button type="submit" class="btn form-btn btn-purple">Search
+                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <section class="hotels">
+        <div class="container">
+            <h5 class="section-head">
+                <span class="heading">Explore</span>
+                <span class="sub-heading">Our beautiful hotels</span>
+            </h5>
+            <div class="grid">
+                <div class="grid-item featured-hotels">
+                    <img src="images/explore1.webp" alt="" class="hotel-image">
+                    <h5 class="hotel-name">Astro Hotel</h5>
+                    <span class="hotel-price">From $200/Night</span>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star-half rating"></i>
+                    </div>
+                    <a href="#" class="btn btn-gradient">Book now
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+
+                <div class="grid-item featured-hotels">
+                    <img src="images/explore2.webp" alt="" class="hotel-image">
+                    <h5 class="hotel-name">Enchanted Garden</h5>
+                    <span class="hotel-price">From $250/Night</span>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                    </div>
+                    <a href="#" class="btn btn-gradient">Book now
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+
+                <div class="grid-item featured-hotels">
+                    <img src="images/explore3.webp" alt="" class="hotel-image">
+                    <h5 class="hotel-name">The Paradise</h5>
+                    <span class="hotel-price">From $350/Night</span>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star-half rating"></i>
+                    </div>
+                    <a href="#" class="btn btn-gradient">Book now
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+
+                <div class="grid-item featured-hotels">
+                    <img src="images/explore4.webp" alt="" class="hotel-image">
+                    <h5 class="hotel-name">Hotel Elite</h5>
+                    <span class="hotel-price">From $350/Night</span>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star-half rating"></i>
+                    </div>
+                    <a href="#" class="btn btn-gradient">Book now
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+
+                <div class="grid-item featured-hotels">
+                    <img src="images/explore5.webp" alt="" class="hotel-image">
+                    <h5 class="hotel-name">Relax Inn</h5>
+                    <span class="hotel-price">From $300/Night</span>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star-half rating"></i>
+                    </div>
+                    <a href="#" class="btn btn-gradient">Book now
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+
+                <div class="grid-item featured-hotels">
+                    <img src="images/explore6.webp" alt="" class="hotel-image">
+                    <h5 class="hotel-name">Holly House</h5>
+                    <span class="hotel-price">From $350/Night</span>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star-half rating"></i>
+                    </div>
+                    <a href="#" class="btn btn-gradient">Book now
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offer">
+        <div class="container">
+            <div class="offer-content">
+                <div class="discount">
+                    40% off
+                </div>
+                <h5 class="hotel-name">The Paradise</h5>
+                <div class="hotel-ratings">
+
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star-half rating"></i>
+                    
+                </div>
+                <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ipsa eaque quidem enim, soluta omnis repudiandae? Nam expedita doloribus praesentium 
+                </p>
+                <a href="#" class="btn btn-gradient">Redeem Offer
+                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <section class="rooms">
+        <div class="container">
+            <h5 class="section-head">
+                <span class="heading">Luxurious</span>
+                <span class="sub-heading">Affordable rooms</span>
+            </h5>
+            <div class="grid rooms-grid">
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="img6.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per-night</span></span>
+                        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas earum qui ratione.</p>
+                        <a href="#" class="btn rooms-btn">Book now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="img4.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per-night</span></span>
+                        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas earum qui ratione.</p>
+                        <a href="#" class="btn rooms-btn">Book now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="img3.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per-night</span></span>
+                        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas earum qui ratione.</p>
+                        <a href="#" class="btn rooms-btn">Book now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="img3.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per-night</span></span>
+                        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas earum qui ratione.</p>
+                        <a href="#" class="btn rooms-btn">Book now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="img3.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per-night</span></span>
+                        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas earum qui ratione.</p>
+                        <a href="#" class="btn rooms-btn">Book now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="img3.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per-night</span></span>
+                        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas earum qui ratione.</p>
+                        <a href="#" class="btn rooms-btn">Book now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="img3.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per-night</span></span>
+                        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas earum qui ratione.</p>
+                        <a href="#" class="btn rooms-btn">Book now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="img3.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per-night</span></span>
+                        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas earum qui ratione.</p>
+                        <a href="#" class="btn rooms-btn">Book now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="img3.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per-night</span></span>
+                        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas earum qui ratione.</p>
+                        <a href="#" class="btn rooms-btn">Book now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="img2.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per-night</span></span>
+                        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas earum qui ratione.</p>
+                        <a href="#" class="btn rooms-btn">Book now &rrarr;</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <section class="contact">
+        <div class="container">
+            <h5 class="section-head">
+                <span class="heading">Contact</span>
+                <span class="sub-heading">Get in touch with us</span>
+            </h5>
+
+            <div class="contact-content">
+                <div class="traveler-wrap">
+                    <img src="contact.png" alt="">
+
+                </div>
+                <form action="" class="form contact-form">
+                    <div class="input-group-wrap">
+                        <div class="input-group">
+                            <input type="text" class="input" placeholder="Name" required>
+                            <span class="bar"></span>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="email" class="input" placeholder="E-mail" required>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+
+                        <div class="input-group">
+                            <input type="text" class="input" placeholder="Subject" required>
+                            <span class="bar"></span>
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="input"  cols="30" rows="8" placeholder="Message" required></textarea>
+                            <span class="bar"></span>
+                        </div>
+                    <button type="submit" class="btn form-btn btn-purple">Send Message
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        
+                    </button>    
+                    
+                </form>
+            </div>
+           
+
+        </div>
+    </section> -->
+</main>
+
+<!-- <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-content-brand">
+                <a href="index.html" class="logo">
+                    <img class="logo-image" src="" alt="">
+                    <i class="fas fa-hotel "> WANDERLUST</i>
+                </a>
+                <div class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur deserunt exercitationem earum!
+                </div>
+
+            </div>
+            <div class="social-media-wrap">
+                <h4 class="footer-heading">Follow us</h4>
+                <div class="social-media">
+                    <a href="#" class="sm-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="sm-link"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" class="sm-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="sm-link"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="sm-link"><i class="fab fa-tripadvisor"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer> -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Our locations</h3>
+            <a href=""><i class="fas fa-map-marker-alt"></i>India</a>
+        </div>
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="home.html"><i class="fas fa-arrow-right"></i>Home</a>
+            <a href="hotels.html"><i class="fas fa-arrow-right"></i>Hotels</a>
+            <a href="trains.html"><i class="fas fa-arrow-right"></i>Trains</a>
+            <a href="flights.html"><i class="fas fa-arrow-right"></i>Flights</a>
+            <a href="holiday_packages.html"><i class="fas fa-arrow-right"></i>Holiday-Packages</a>
+            <a href="contact.html"><i class="fas fa-arrow-right"></i>Contact-Us</a>
+        </div>
+        <div class="box">
+            <h3>Contact info</h3>
+            <a href=""><i class="fas fa-phone"></i>+123-456-7890</a>
+            <a href=""><i class="fas fa-phone"></i>+111-345-888</a>
+            <a href=""><i class="fas fa-envelope"></i>wanderlust@gmail.com</a>
+           
+        </div>
+    </div>
+    <div class="share">
+        <a href=""  class="fab fa-facebook-f"></a>
+        <a href="" class="fab fa-twitter"></a>
+        <a href="" class="fab fa-instagram"></a>
+        <a href="" class="fab fa-linkedin"></a>
+    </div>
+    <div class="credit">
+        <span>Created By wanderlust &copy; All Rights Reserved</span>
+    </div>
+</section>
+
+
+
+
+
+
+<script src="js/hotels.js"></script>
+    
+</body>
+</html>

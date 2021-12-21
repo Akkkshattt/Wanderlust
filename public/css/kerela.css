@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #00a8b4;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 35px 35px;
+    margin: auto;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    position: relative;
+    max-width: 1550px;
+    background: #fff;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+.container .card .imgbx{
+    max-width: 350px;
+    flex: 0 0 350px;
+}
+
+.container .card .imgbx img{
+    max-width: 100%;
+}
+
+.container .card .content{
+    margin-left: 20px;
+}
+
+.container .card .content h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container .card .content p{
+    margin-top: 14px;
+}
+
+
+
+button{
+    background: darkblue;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-top: 14px;
+    /* margin-bottom: 8px; */
+    width: 20%;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+span{
+    margin-top: 10px;
+}
+.checked{
+    color: orange;
+}
+
+
+@media (max-width: 991px)
+{
+    .container{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 768px)
+{
+    .container{
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .container .card{
+        flex-direction: column;
+        max-width: 1500px;
+        margin: 0px;
+    }
+
+    .container .card .imgbx{
+        max-width: 100%;
+
+    }
+
+    .container .card .content{
+        margin-left: 0px;
+    }
+}
+.info{
+    position: absolute;
+    top: 80rem;
+    font-size: 1.5rem;
+}
+.back{
+    position: absolute;
+    top: 82rem;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 85px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.back:hover{
+    background-color: white;
+}

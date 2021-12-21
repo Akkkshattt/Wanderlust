@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Thambi+2&family=Zen+Old+Mincho&display=swap');
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+    background-color:#00a8b4;
+}
+
+.login-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,.9);
+    position: fixed;
+    top: 0px;
+    /* right:-105%; */
+    /* left: 0px; */
+    z-index:10000;
+    height: 100%;
+    width: 100%;
+}
+
+.login-form-container form{
+    background:#fff;
+    border: 2px solid black;
+    width: 40rem;
+    padding: 2rem;
+    box-shadow:0 0.5rem 1rem rgba(0,0,0,.1);
+    border-radius: 10px;
+    margin: 2rem;
+}
+.login-form-container form h3{
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.login-form-container form span{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    display: block;
+}
+.login-form-container form .box{
+    margin: .7rem 0;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 1rem 1.2rem;
+    width: 100%;
+}
+.login-form-container form .checkbox{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+.login-form-container form .checkbox label{
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+}
+.login-form-container form .btn{
+    display: inline-block;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 2px solid black;
+    border-radius: 10px; 
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.login-form-container form .btn:hover{
+    background-color: #00a8b4;
+    color: white;
+}
+

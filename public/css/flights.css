@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Thambi+2&family=Zen+Old+Mincho&display=swap');
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+img{
+    background: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+header .header-2{
+    background-color:  #00a8b4;
+}
+header .header-2 .navbar{
+    text-align: center;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header .header-2 .navbar a{    
+/* display: inline-block; */
+color:white;
+font-size: 1.7rem;
+text-decoration: none;
+padding: 0 1rem;
+}
+header .header-2 .navbar a:hover{
+    color: black;
+    font-weight: bolder;
+}
+header .header-2.active{
+    /* position: fixed; */
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+.footer{
+    background-color: rgb(235, 235, 235);
+    /* position: fixed; */
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,2fr));
+    gap: 2.8rem;
+    margin: 0 6rem;
+}
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color: #2d2c2c;
+    padding:1rem 0;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    color: black;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+.footer .box-container .box a:hover{
+    color: #00a8b4;
+    font-weight: bold;
+    padding: 0 0.5rem;
+}
+.footer .box-container .box a i{
+    color: #00a8b4;
+    margin: 0 6px;
+}
+.footer .share{
+    text-align: center;
+    margin: 2rem 0;
+}
+.footer .share a{
+    height:4rem ;
+    width:4rem ;
+    line-height:4rem ;
+    font-size: 2rem;
+    color: black;
+    /* background-color: #a31c1c; */
+    margin: 0 .7rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.footer .share a:hover{
+    background-color: rgba(53,10,79,.5);
+}
+.footer .credit{
+    margin-top: 1rem;
+    border-top:2px solid black ;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.booking-form-box{
+ max-width: 100vw;
+ /* border: 2px solid black; */
+ /* margin: 1rem auto;   */
+ max-height: 100vh;
+}
+.radio-btn{
+    margin: 0 20px;
+    text-align: center;
+}
+.radio-btn .btn{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btn::after{
+  content: '';
+  height: 15px;
+  width: 15px;
+  top: -2px;
+  left: -1px;
+  background-color: white;
+  position:relative;
+  display: inline-block;
+  border: 1px solid black;
+  visibility: visible;
+  border-radius: 50%;
+} 
+.radio-btn .btn:checked::after{
+    content: '';
+    background-color:red;
+    transition: 0.5s;
+}
+.radio-btn span{
+    color: black;
+    margin-right: 5px;
+    font-size:1rem;
+}
+.booking-form{
+    padding: 0 20px 20px;
+}
+.booking-form label{
+    margin-top:10px;
+    margin-bottom:5px;
+    font-size: 1rem;
+    color: rgb(35, 24, 185);
+}
+.form-control{
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.btn{
+    /* width: 50%; */
+    /* margin: auto; */
+    margin-left: 28rem;
+    margin-top: 4rem;
+    padding: 0 1rem;
+}

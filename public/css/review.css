@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Thambi+2&family=Zen+Old+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header .header-1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 3%;
+    /* background-color: grey; */
+}
+.header .header-1 .logo{
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+    /* text-decoration: none; */
+}
+header .header-1 .logo a{
+    text-decoration: none;
+    color: #00a8b4;
+}
+.header .header-1 .logo i{
+    color: #00a8b4;
+    padding: 0rem 0.5rem;
+}
+
+.header .header-1 .search-form{
+ width: 50rem;
+ height: 3rem;
+ border: 2px solid#00a8b4;
+ overflow: hidden;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 0.5rem;
+ font-size: 10px;
+}
+.header .header-1 .search-form input{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 26px;
+    /* font-weight: bold; */
+    color: black;
+    outline: none;
+    text-transform: none;
+}
+.header .header-1 .search-form label{
+    font-size: 25px;
+    padding-right: 25px;
+    color: black;
+    cursor: pointer;
+}
+.header .header-1 .search-form label:hover{
+    color:burlywood;
+}
+.header .header-1 .icons div,.header .header-1 .icons a{
+    font-size: 2rem;
+    margin-left: 16px;
+    cursor: pointer;
+    color:#00a8b4;
+}
+.header .header-1 .icons div:hover,.header .header-1 .icons a:hover{
+    color:#00a8b4;
+}
+header .header-2{
+    background-color:  #00a8b4;
+}
+header .header-2 .navbar{
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .header-2 .navbar a{    
+/* display: inline-block; */
+color:white;
+font-size: 1.7rem;
+text-decoration: none;
+padding: 0 1rem;
+}
+header .header-2 .navbar a:hover{
+    color: black;
+    font-weight: bolder;
+}
+header .header-2{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+.footer{
+    background-color: rgb(235, 235, 235);
+    /* position: fixed; */
+    font-size: 1.3rem;
+    /* height: 100vh; */
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23rem,0fr));
+    gap: 1.5rem;
+    margin: 0 9rem;
+}
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color: black;
+    padding:1rem 0;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    color: black;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+.footer .box-container .box a:hover{
+    color: #00a8b4;
+    font-weight: bold;
+    padding: 0 0.5rem;
+}
+.footer .box-container .box a i{
+    color: #00a8b4;
+    margin: 0 6px;
+}
+.footer .share{
+    text-align: center;
+    margin: 2rem 0;
+}
+.footer .share a{
+    height:4rem ;
+    width:4rem ;
+    line-height:4rem ;
+    font-size: 2rem;
+    color: black;
+    /* background-color: #a31c1c; */
+    margin: 0 .7rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.footer .share a:hover{
+    background-color: rgba(53,10,79,.5);
+}
+.footer .credit{
+    margin-top: 1rem;
+    border-top:2px solid black ;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.review{
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.review h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.review img{
+    height: 260px;
+    width: 400px;
+}
+.review .star-rating{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 7rem;
+    margin-bottom: 1rem;
+    background-color: black;
+}
+.review .star-rating button{
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: white;
+}
+.review .star-rating a{
+    color: white;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.review .star-rating a:hover{
+    width: 145px;
+    background-color: #00a8b4;
+}
+.review .star-rating button:hover{
+    width: 145px;
+   background-color: #00a8b4;
+    /* font-size: 1.3rem; */
+}
+.review .star-rating .stars{
+    display: flex;
+    margin-left: 1.4rem;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.review .star-rating p{
+    color: white;
+    font-size: 2rem;
+    padding-left: 15px;
+}
+.review .star-rating .stars,.star,.star1,.star2, .star3, .star4, .star5, .star6{
+    list-style: none;
+    padding-left:10px;
+}
+/* .review .star-rating .stars .star i:hover{
+    color: yellow;
+} */
+.review .star-rating .output{
+    font-size: 1.1rem;
+    margin-left: 17px;
+    color: white;
+    font-weight: bold;
+}
+.review .star-rating .output1{
+    font-size: 1.1rem;
+    margin-left: 17px;
+    color: white;
+    font-weight: bold;
+}
+.review .star-rating .output2{
+    font-size: 1.1rem;
+    margin-left: 17px;
+    color: white;
+    font-weight: bold;
+}
+.review .star-rating .output3{
+    font-size: 1.1rem;
+    margin-left: 17px;
+    color: white;
+    font-weight: bold;
+}
+.review .star-rating .output4{
+    font-size: 1.1rem;
+    margin-left: 17px;
+    color: white;
+    font-weight: bold;
+}
+.review .star-rating .output5{
+    font-size: 1.1rem;
+    margin-left: 17px;
+    color: white;
+    font-weight: bold;
+}
+.review .star-rating .output6{
+    font-size: 1.1rem;
+    margin-left: 17px;
+    color: white;
+    font-weight: bold;
+}
+.yellow{
+    color: yellow;
+}
+.orange{
+    color: orange;
+}
+.info{
+    text-align: center;
+    margin: 1.5rem;
+}
